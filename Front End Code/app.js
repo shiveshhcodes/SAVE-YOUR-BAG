@@ -1,3 +1,5 @@
+// app.js
+
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('product-form');
     const urlInput = document.getElementById('product-url');
@@ -45,10 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
         messageDiv.textContent = message;
         messageDiv.className = `message ${type}`;
         messageDiv.classList.remove('hidden');
+        messageDiv.style.opacity = 0;
+        setTimeout(() => {
+            messageDiv.style.opacity = 1;
+        }, 50); // Slight delay to trigger transition
 
         // Hide the message after 3 seconds
         setTimeout(() => {
-            messageDiv.classList.add('hidden');
+            messageDiv.style.opacity = 0;
+            setTimeout(() => {
+                messageDiv.classList.add('hidden');
+            }, 300); // Delay matches transition duration
         }, 3000);
     }
 });
