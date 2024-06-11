@@ -30,6 +30,12 @@ body {
 
 .navbar ul li {
     margin: 0 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar ul li:hover {
+    background-color: rgb(255, 217, 147);
+    transform: scale(1.21);
 }
 
 .navbar ul li a {
@@ -41,6 +47,7 @@ body {
 
 .navbar ul li a:hover {
     color: #ff9800;
+
 }
 
 .navbar ul li {
