@@ -1,6 +1,7 @@
 // app.js
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme toggle functionality
     const themeToggleButton = document.getElementById('theme-toggle');
     const body = document.body;
 
@@ -19,9 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Save the user preference in localStorage
         localStorage.setItem('theme', theme);
     });
-});
 
-document.addEventListener('DOMContentLoaded', function() {
+    // Typing effect functionality
     const platformNames = ["Amazon", "Flipkart", "Myntra", "Meesho"];
     let currentIndex = 0;
     let charIndex = 0;
