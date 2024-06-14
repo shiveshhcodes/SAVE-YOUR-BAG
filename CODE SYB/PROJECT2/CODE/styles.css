@@ -82,7 +82,7 @@ a:hover {
     width: 270px;
     height: 270px;
     flex-shrink: 0; /* Prevent the image from shrinking */
-    margin-right: 22px;
+    margin-right: 42px;
     margin-top: 250px;
 }
 
@@ -100,6 +100,7 @@ a:hover {
     padding-top: 20px; /* Reduced padding from 40px to 20px */
     padding-left: 88px; /* Keeps the left padding */
     margin-bottom: 10px; /* Added margin to control space below h1 */
+    /* padding-right: 736px; */
     /* padding-left: 120px; */
 }
 
@@ -108,14 +109,14 @@ a:hover {
     margin: 0;
 }
 
-.profile-divider {
+/* .profile-divider {
     width: 2px;
     height: 247px;
     background-color: #ccc;
     margin: 33px;
     margin-top: 299px;
    
-}
+} */
 
 /* Companies Section */
 .companies {
@@ -207,8 +208,9 @@ body.dark-mode .social-links a {
 /* Search Box Container */
 .search-container {
     text-align: center;
-    margin-top: 10px;
-    padding-top: 5px;
+    margin-top: -107px;
+    padding-top: 0px;
+    ;
 }
 
 .search-container h1 {
@@ -289,15 +291,20 @@ body.dark-mode .social-links a {
 
 #less {
     padding-top: 0px; /* Remove any padding */
-    font-size: 32px;
-    line-height: 1; /* Adjust line height for closer spacing */
-    margin-bottom: 0px; /* Optional: Control spacing after #less section */
+    font-size: 20px;
+    line-height: 1.2; /* Adjust line height for closer spacing */
+    margin-bottom: 10px; /* Optional: Control spacing after #less section */
 }
 
 .info{
      font-size: 20px;
-     line-height: 1.8;
-     margin-top: 10px;
+     line-height: 1.6;
+     margin-top: -5px;
+     margin-bottom: 0px;
+}
+
+.info2{
+    font-size: 1.102em;
 }
 
 #saveit{
@@ -308,4 +315,13 @@ body.dark-mode .social-links a {
     font-size: 69px;
     font-weight: 1100;
     color: #0eab00;
+}
+.profile-divider2{
+    width: 2px;
+    height: 900px;
+    background-color: #ccc;
+    margin: 33px;
+    margin-top: -520px;
+    margin-bottom: -320px;
+    transform:rotate(90deg);
 }
