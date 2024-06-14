@@ -8,6 +8,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        async function checkPrice() {
+            const url = document.getElementById('url').value;
+            const response = await fetch('/check_price', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ url }),
+            });
+            const data = await response.json();
+            document.getElementById('current_price').innerText = `Current Price: $${data.current_price}`;
+            document.getElementById('price_history_chart').src = `data:image/png;base64,${data.price_history_chart}`;
+        }
+    </script>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -15,9 +30,9 @@
         <div class="logo">@saveit</div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Log In</a></li>
+                <li class="nav1links"><a href="#">Home 🪴</a></li>
+                <li class="nav1links"><a href="#">Cart 🛒</a></li>
+                <li class="nav1links"><a href="#">Log In 😭</a></li>
                 <li><button id="theme-toggle">🌙</button></li>
             </ul>
         </nav>
@@ -50,8 +65,8 @@
         <div class="search-container">
             <h1>Let's Do This!!</h1>
             <p>Track prices of your favourite products on <span id="platform-name" class="highlighted-text">Amazon</span></p>
-            <form class="search-form">
-                <input type="text" placeholder="Paste product link" class="search-input">
+            <form class="search-form" onsubmit="event.preventDefault(); checkPrice();">
+                <input type="url" id="url" name="url" placeholder="Paste product link" class="search-input" required>
                 <button type="submit" class="search-button">🔍</button>
             </form>
             <p class="supported-platforms">Supports all major e-commerce platforms in India</p>
@@ -59,10 +74,10 @@
                 <img src="/../CODE SYB/PROJECT2/ASSETS/Images/amazon2.png" alt="Amazon">
                 <img src="/../CODE SYB/PROJECT2/ASSETS/Images/flipkart.png" alt="Amazon">
                 <img src="/../CODE SYB/PROJECT2/ASSETS/Images/myntra2.png" alt="Amazon">
-                
             </div>
+            <p id="current_price"></p>
+            <img id="price_history_chart" alt="Price History Chart">
         </div>
-
 
     <!-- Companies and Contact -->
     <!-- <section class="companies">
@@ -82,7 +97,6 @@
             <a href="#"><i class="fab fa-envelope"></i></a>
         </div>
     </footer>
-
     <script src="app.js"></script>
 </body>
 </html>
