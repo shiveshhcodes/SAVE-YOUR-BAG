@@ -291,15 +291,24 @@ body.dark-mode .social-links a {
 
 #less {
     padding-top: 0px; /* Remove any padding */
+    letter-spacing: 1.2px;
     font-size: 20px;
-    line-height: 1.2; /* Adjust line height for closer spacing */
+    line-height: 1.6; /* Adjust line height for closer spacing */
     margin-bottom: 10px; /* Optional: Control spacing after #less section */
+}
+#less2{
+    padding-top: 0px; /* Remove any padding */
+    /* letter-spacing: 2px; */
+    font-size: 30px;
+    line-height: -1.2; /* Adjust line height for closer spacing */
+    margin-bottom: 22px; /* Optional: Control spacing after #less section */
+    margin-top: -45px; /* Optional: Control spacing after #less section */
 }
 
 .info{
      font-size: 20px;
      line-height: 1.6;
-     margin-top: -5px;
+     margin-top: 6px;
      margin-bottom: 0px;
 }
 
