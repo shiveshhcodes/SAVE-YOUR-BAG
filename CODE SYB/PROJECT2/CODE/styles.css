@@ -45,10 +45,15 @@ a:hover {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-right: 15px;
 }
 
 .nav-links li {
     margin: 0;
+}
+
+.nav1links{
+    letter-spacing: px ;
 }
 
 .nav-links a, .nav-links button {
