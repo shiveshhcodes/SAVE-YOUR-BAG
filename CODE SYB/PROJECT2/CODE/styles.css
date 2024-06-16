@@ -42,7 +42,7 @@ a:hover {
 }
 
 .nav-links {
-    list-style: none;
+    /* list-style-type: none; */
     display: flex;
     gap: 20px;
     padding-right: 15px;
@@ -50,11 +50,12 @@ a:hover {
 
 .nav-links li {
     margin: 0;
+    list-style-type: none;
 }
 
 .nav1links li{
     letter-spacing: 0.2px ;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 .nav-links a, .nav-links button {
@@ -299,11 +300,11 @@ body.dark-mode .social-links a {
     padding-top: 0px; /* Remove any padding */
     letter-spacing: 1.3px;
     font-size: 20px;
-    line-height: 1.6; /* Adjust line height for closer spacing */
+    line-height: 2.6; /* Adjust line height for closer spacing */
     margin-bottom: 10px; /* Optional: Control spacing after #less section */
 }
 #less2{
-    padding-top: 0px; /* Remove any padding */
+    padding-top: 20px; /* Remove any padding */
     /* letter-spacing: 2px; */
     font-size: 30px;
     line-height: -1.2; /* Adjust line height for closer spacing */
