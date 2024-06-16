@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header1 {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+header .buttons button {
+    margin-left: 10px;
+}
+
