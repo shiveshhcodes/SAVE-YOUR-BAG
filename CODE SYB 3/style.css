@@ -56,10 +56,30 @@
 }
 
 .head-front{
-    font-size: 51px;
+    font-size: 41px;
 }
 .subhead-front{
     font-size: 19px;
     padding-top: 5px;
     
+}
+
+/* how to save money css */
+/* 
+.offcanvas-body{
+    /* .offcanvas-body h2 {
+        margin-bottom: 20px;
+    } */
+    /* .offcanvas-body h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .offcanvas-body h6 {
+        margin-bottom: 20px;
+    }
+ */ 
+
+.btn-primary{
+    margin-top: 60px;
+    margin-left: 165px;
 }
