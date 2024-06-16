@@ -15,25 +15,47 @@
     <!-- Header -->
     <header class="container-fluid bg-light p-3 shadow-sm">
         <div class="d-flex justify-content-between align-items-center">
+            <!-- Logo Section -->
             <div class="logo">
                 <h1 class="font-weight-bold">Save Your Bag</h1>
             </div>
-            <div class="buttons">
-                <button class="btn btn-outline-dark">Your Cart</button>
-                <button class="btn btn-outline-dark">Sign in</button>
+            
+            <!-- Buttons Section -->
+            <div class="d-flex">
+                <button type="button" class="btn btn-success me-2 mr-2">HOME</button>
+                <button type="button" class="btn btn-success mr-2">CART</button>
+                <button type="button" class="btn btn-success">SIGN IN</button>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">☀️</label>
+                  </div>
             </div>
         </div>
-
-        <!-- Main Content -->
-
-        
     </header>
+    
+        <!-- Main Content -->
+       <div class="container">
 
-   
-    </section>
+
+        <!-- feedback at last -->
+        <div class="pt-4 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="shivesh@xyz.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Feedback Please!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="please tell us how we can improve anything!!"></textarea>
+          </div>
+        
+    
+
+
+       </div>
+
 
     <!-- Footer -->
-    <footer class="container-fluid bg-light text-center py-4">
+    <footer class="container-fluid bg-light text-center py-4 ">
         <p>© 2024 Save Your Bag. All rights reserved.</p>
     </footer>
 
