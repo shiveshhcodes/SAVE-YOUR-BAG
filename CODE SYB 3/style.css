@@ -1,10 +1,11 @@
 /* SMALL DEVICES */
 
-@media screen and (min-width: 338px) and (max-width: 375px) {
-    .navbar {
-        background-color: #006ee4;
-        /* Change this to your desired color */
-    }
+@media screen and (min-width: 349px) and (max-width: 375px) {
+    
+    /* .body{ */
+/* background-image: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); */
+/* ; */
+    /* } */
 
     /* navbar CSS */
  
@@ -36,10 +37,6 @@
 
     }
 
-    /* To-Do - ALIGN THIS
-    .navbar-toggler #offcanvasNavbar{
-        margin-top: 22px;
-    } */
 
     #offcanvasNavbarLabel {
         font-size: 25px;
@@ -73,6 +70,7 @@
     }
 
     /* Container Code */
+
 
     /* Headline code */
      .head-front {
@@ -108,13 +106,23 @@
     }
 
     #offcanvasWithBothOptions{
-        padding-top: 127px;
+        padding-top: 13px;
+        width: 282px;
     }
 
+    /* BEFORE YOU BEGIN CODE */
     .container .custom-btn{
         margin-left: 100px;
         margin-top: 20px;
-
+    }
+    .container .offcanvas-body{
+        padding-top: 10px;
+    }
+    .container .offcanvas-body h2{
+        padding-bottom: 20px;
+    }
+    .container .offcanvas-body h6{
+        padding-bottom: 35px;
     }
 }
 
