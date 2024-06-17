@@ -64,20 +64,15 @@
     
 }
 
-/* how to save money css */
-/* 
-.offcanvas-body{
-    /* .offcanvas-body h2 {
-        margin-bottom: 20px;
-    } */
-    /* .offcanvas-body h3 {
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .offcanvas-body h6 {
-        margin-bottom: 20px;
-    }
- */ 
+/* SAVE MONEY BUTTON CODE */
+.offcanvas-body h3{
+    padding-top: 24px;
+
+}
+
+#offcanvasWithBothOptions{
+    width:320px;
+}
 
 .btn-primary{
     margin-top: 60px;
