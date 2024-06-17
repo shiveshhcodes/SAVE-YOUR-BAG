@@ -1,80 +1,160 @@
-.navbar {
-      background-color: #006ee4; /* Change this to your desired color */
-      }
-/* navbar CSS */
+/* SMALL DEVICES */
 
-#navbar-saveit{
-    padding-left: 12px;
-    font-weight: 600;
-    font-size: 30px;
-
-}
-
-.profile-image {
-        width: 70px; /* Adjust the size as needed */
-        height: 70px; /* Adjust the size as needed */
-        border-radius: 50%;
-        object-fit: cover;
-        margin-left: 10px; /* Adjust the spacing as needed */
-        margin-right: 10px; /* Adjust the spacing as needed */
+@media screen and (min-width: 338px) and (max-width: 375px) {
+    .navbar {
+        background-color: #006ee4;
+        /* Change this to your desired color */
     }
-.profile-image2{
-        width: 40px; /* Adjust the size as needed */
-        height: 50px; /* Adjust the size as needed */
+
+    /* navbar CSS */
+ 
+    .navbar .container-fluid{
+   height: 63px;
+   /* background-color: red; */
+
+    }
+
+    /* first save it */
+    #navbar-saveit {
+        padding-left: 12px;
+        font-weight: 600;
+        font-size: 26px;
+        padding-bottom: 21px;
+        margin-right: 12px;
+
+    }
+
+    /* center logo */
+    .profile-image {
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
         object-fit: cover;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 23px;
+
+    }
+
+    /* To-Do - ALIGN THIS
+    .navbar-toggler #offcanvasNavbar{
+        margin-top: 22px;
+    } */
+
+    #offcanvasNavbarLabel {
+        font-size: 25px;
+        font-weight: 200;
+        font-weight: bold;
+    }
+
+    .offcanvas-body li {
+        font-size: 18px;
+    }
+
+    .dropdown-menu li a:hover {
+        /* transform: scale(1.2); */
+        color: green;
+    }
+
+    .mt-custom img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        object-fit: cover;
+        margin-left: 120px;
+        margin-top: 180px;
         justify-content: center;
-        margin-left: 10px; /* Adjust the spacing as needed */
-        margin-right: 10px; /* Adjust the spacing as needed */
+        flex-shrink: 0;
     }
 
+    .mt-custom .profile-image2{
+        margin-left: 80px;
+        margin-top: 100px;
+    }
 
-#offcanvasNavbarLabel{
-    font-size: 25px;
-    font-weight: 200;
-    font-weight: bold;
+    /* Container Code */
+
+    /* Headline code */
+     .head-front {
+        font-size: 30px;
+        margin-top: .66em;
+        margin-left: 3px;
+        font-stretch: semi-expanded;
+        padding-left: 18px;
+
+    }
+
+    .subhead-front {
+        font-size: 19px;
+        padding-top: 11.6px;
+        padding-left: 21px;
+        font-stretch: semi-expanded;
+
+
+    }
+   
+    /* BIG text */
+    .head-front #BIG{
+     font-size: 70px;
+     text-align: center;
+     color: #157811;
+     padding-left: 82px;
+     padding-top: 12px;
+    }
+    /* 🤑 emoji css */
+    .head-front #BIG #emoji{
+     font-size: 45px;
+     color: #157811;
+    }
+
+    /* SAVE MONEY BUTTON CODE */
+    .offcanvas-body h3 {
+        padding-top: 24px;
+
+    }
+
+    #offcanvasWithBothOptions {
+        width: 340px;
+    }
+
+    .btn-primary {
+        margin-top: 60px;
+        margin-left: 165px;
+    }
 }
 
-.offcanvas-body li{
-    font-size: 18px;
-}
-.dropdown-menu li a:hover{
-    /* transform: scale(1.2); */
-    color: green;
+
+/* Extra small devices (phones, less than 360px)
+@media screen and (max-width: 359px) {
+    CSS for extra small devices
 }
 
-/* LOGO CSS */
-.mt-custom img{
-    width: 260px; /* Adjust the size as needed */
-    height: 260px; /* Adjust the size as needed */
-    border-radius: 10%;
-    object-fit: cover;
-    margin-left: 120px;
-    margin-top: 180px;
-    justify-content: center;
-    flex-shrink: 0;
+Small devices (phones, 360px - 374px)
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    CSS for small devices
 }
 
-.head-front{
-    font-size: 41px;
-}
-.subhead-front{
-    font-size: 19px;
-    padding-top: 5px;
-    
+Medium-small devices (phones, 375px - 413px)
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    CSS for medium-small devices
 }
 
-/* SAVE MONEY BUTTON CODE */
-.offcanvas-body h3{
-    padding-top: 24px;
-
+Large phones (414px - 480px)
+@media screen and (min-width: 414px) and (max-width: 480px) {
+    CSS for large phones
 }
 
-#offcanvasWithBothOptions{
-    width:340px;
+Medium devices (tablets, 481px - 767px)
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    CSS for medium devices
 }
 
-.btn-primary{
-    margin-top: 60px;
-    margin-left: 165px;
+Large devices (desktops, 768px - 1023px)
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    CSS for large devices
 }
+
+Extra large devices (large desktops, 1024px and up)
+@media screen and (min-width: 1024px) {
+    CSS for extra large devices
+} */
