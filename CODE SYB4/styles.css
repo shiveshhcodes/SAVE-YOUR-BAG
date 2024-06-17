@@ -1,0 +1,24 @@
+/* SMALL DEVICES */
+
+@media screen and (min-width: 349px) and (max-width: 375px) {
+
+.first-line{
+    padding-left: 6px;
+}
+
+.container .main-image {
+    width: 100px;
+    height: 200px;
+    object-fit: contain
+}
+
+.Main-Line{
+    padding-top: 555px;
+    padding-left: 18px;
+    font-stretch: semi-expanded;
+}
+}
+
+.container .description {
+    padding-left: 19px;
+}
