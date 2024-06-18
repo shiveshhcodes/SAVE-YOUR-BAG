@@ -212,6 +212,10 @@
     .working h2{
         font-size: 42px;
         margin-top: 12px;
-        padding-top: 132px;
+        padding-top: 62px;
+    }
+
+    .working .video{
+        padding-top: 18px;
     }
 }
