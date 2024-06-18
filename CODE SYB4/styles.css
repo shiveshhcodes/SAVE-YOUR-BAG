@@ -2,182 +2,216 @@
 
 @media screen and (min-width: 349px) and (max-width: 375px) {
 
-/* header first element */
-.first-line{
-    padding-left: 6px;
-    padding-top: 5px;
-}
 
-.header-container .btn {
-    --bs-btn-color: #fff;
-    /* greencolor */
-    --bs-btn-bg: #027c00; 
-    --bs-btn-border-color: #027c00;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #027c00;
-    --bs-btn-hover-border-color: #027c00;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #027c00;
-    --bs-btn-active-border-color: #027c00;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #027c00;
-    --bs-btn-disabled-border-color: #027c00;
-}
-
-/* full header */
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3px 15px;
-}
-/* Heading Header */
-.header-container h2 {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
-}
-/* button ki css */
-.header-container .btn {
-    margin-left: 45px; /* Adjust the space between text and button */
-}
-.first-line {
-    margin: 0;
-}
-.header-container .brand-text {
-    margin-right: 10px; /* Adjust space between brand text and button */
-}
-
-/* sign in button */
-.sign-in{
-    padding-left:82px;
-    margin-bottom:0px;
-}
-.btn.active{
-    --bs-btn-font-weight: 600;
-    --bs-btn-line-height: 30.5px;
-}
-
-
-/* Main Headline */
-.Main-Line{
-    padding-top: 35px;
-    padding-left: 18px;
-    font-stretch: semi-expanded;
-}
-.container .head-front{
-    font-size: 36px;
-    /* font-weight: bolder; */
-
-}
-/* description css */
-
-.container .description {
-    padding-left: 19px;
-    font-size: 15.4554px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    color: #999;
-}
-
-
-/* Button */
-
-/* main button ki setting */
-.search-form {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center;
-    align-items: center; /* Center items horizontally */
-    margin-bottom: 20px;
-    zoom: .8;
-    padding-top:12px;
-}
-
-.search-input {
-    border: 3px solid #0eab00;
-    border-radius: 50px;
-    padding: 21px 50px;
-    font-size: 26px;
-    width: 430px;
-    outline: none;
-    transition: all 0.3s ease;
-    margin-bottom: 10px; /* Add space between input and button */
-}
-
-.search-input:focus {
-    border-color: #0a7c00;
-    border-width: 0.22em;
-}
-
-.search-button {
-    background-color: #0eab00;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    font-size: 1.45em;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%; 
-    max-width: 300px; 
-}
-
-.search-button:hover {
-    background-color: #0e8103;
-}
-
-.search-input::placeholder {
-    color: #999; /* Custom color for the placeholder */
-    font-size: 27px; /* Adjust font size if needed */
-    text-overflow: ellipsis; /* Handle long placeholder text */
-    white-space: nowrap;
-    overflow: hidden;
-    padding-left: 12px;
-}
-
-.spacing{
-    padding-top: 8px;
-    /* padding-left: 222px; */
-}
-
-.button-heading{
-    padding-bottom: 12px;
-    padding-left: 22px;
-    font-size: 35px;
-}
-
-.blinking-cursor {
-    display: inline-block;
-    width: 2px;
-    height: 1em;
-    background-color: black;
-    margin-left: 2px;
-    animation: blink 0.7s step-end infinite;
-    vertical-align: bottom; /* Adjust vertical alignment if necessary */
-}
-
-@keyframes blink {
-    from, to {
-        opacity: 1;
+    /* full header */
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 15px;
     }
-    50% {
-        opacity: 0;
-    }
-}
 
-/* Optional: Additional styling for the platform element */
-#platform-name {
-    font-family:"inter";
-    font-size: 44px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: green;
-}
+    /* Heading Header */
+    .header-container h2 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .first-line {
+        margin: 0;
+    }
+
+    .header-container .brand-text {
+        margin-right: 10px;
+        /* Adjust space between brand text and button */
+    }
+
+    /* header first element */
+    .first-line {
+        padding-left: 6px;
+        padding-top: 5px;
+    }
+
+    /* button ki css */
+    .header-container .btn {
+        margin-left: 45px;
+        /* Adjust the space between text and button */
+    }
+
+    .header-container .btn {
+        --bs-btn-color: #fff;
+        /* greencolor */
+        --bs-btn-bg: #027c00;
+        --bs-btn-border-color: #027c00;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #027c00;
+        --bs-btn-hover-border-color: #027c00;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #027c00;
+        --bs-btn-active-border-color: #027c00;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: #027c00;
+        --bs-btn-disabled-border-color: #027c00;
+    }
+
+
+
+    /* sign in button */
+    .sign-in {
+        padding-left: 82px;
+        margin-bottom: 0px;
+    }
+
+    .btn.active {
+        --bs-btn-font-weight: 600;
+        --bs-btn-line-height: 30.5px;
+    }
+
+
+    /* Main Headline */
+    .Main-Line {
+        padding-top: 35px;
+        padding-left: 18px;
+        font-stretch: semi-expanded;
+    }
+
+    .container .head-front {
+        font-size: 36px;
+        /* font-weight: bolder; */
+
+    }
+
+    /* description css */
+
+    .container .description {
+        padding-left: 19px;
+        font-size: 15.4554px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: #999;
+    }
+
+
+    /* Button */
+
+    /* main button ki settings */
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+        /* Center items horizontally */
+        margin-bottom: 20px;
+        zoom: .8;
+        padding-top: 12px;
+    }
+
+    /* input ki settings css*/
+
+    .search-input {
+        border: 3px solid #0eab00;
+        border-radius: 50px;
+        padding: 21px 50px;
+        font-size: 26px;
+        width: 430px;
+        outline: none;
+        transition: all 0.3s ease;
+        margin-bottom: 10px;
+        /* Add space between input and button */
+    }
+
+    /* expand on click ki css */
+    .search-input:focus {
+        border-color: #0a7c00;
+        border-width: 0.223em;
+    }
+
+    /* second box ki css */
+    .search-button {
+        background-color: #0eab00;
+        border: none;
+        border-radius: 50px;
+        padding: 18px 20px;
+        font-size: 1.55em;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .search-button:hover {
+        background-color: #0e8103;
+    }
+
+    /* placeholder ki settings */
+    .search-input::placeholder {
+        color: #999;
+        /* Custom color for the placeholder */
+        font-size: 29px;
+        /* Adjust font size if needed */
+        text-overflow: ellipsis;
+        /* Handle long placeholder text */
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 13px;
+    }
+
+    /* dono button ka space gap css */
+    .spacing {
+        padding-top: 18px;
+
+    }
+
+    .button-heading {
+        padding-bottom: 12px;
+        padding-left: 22px;
+        font-size: 31px;
+    }
+
+    .blinking-cursor {
+        display: inline-block;
+        width: 2px;
+        height: 1em;
+        background-color: black;
+        margin-left: 2px;
+        animation: blink 0.7s step-end infinite;
+        vertical-align: bottom;
+        /* Adjust vertical alignment if necessary */
+    }
+    /* Optional: Additional styling for the platform element */
+    #platform-name {
+        font-family: "inter";
+        font-size: 44px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: green;
+    }
     
-.img-fluid{
-    padding-top: 20px;
-}
+    @keyframes blink {
+
+        from,
+        to {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .img-fluid {
+        padding-top: 20px;
+    }
+
+    /* how it works */
+    .working h2{
+        font-size: 42px;
+        margin-top: 12px;
+        padding-top: 132px;
+    }
 }
