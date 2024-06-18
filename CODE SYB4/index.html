@@ -9,15 +9,16 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h2 class="first-line fw-semibold">Just <br><span style="padding-left: 12px;">SaveIt</span>
-            <p class="sign-in d-inline-flex gap-1">
-                <a href="index.html" class="btn active" role="button" data-bs-toggle="button" aria-pressed="true">Sign In</a>
+    <header class="header-container">
+        <h2 class="first-line fw-semibold">
+            <span class="brand-text">Just <br><span style="padding-left: 12px;">SaveIt</span></span>
+            <p class="sign-in mb-0">
+                <a href="index.html" class="btn btn-primary" role="button" data-bs-toggle="button" aria-pressed="true">Sign In</a>
             </p>
         </h2>
     </header>
 <div class="container"> 
-    <img src="display.jpg" alt="Display Image" class="main-image">
+    <img src="display.jpg" class="img-fluid" alt="main-image">
     <div class="Main-Line">
         <h1 class="head-front justify-content-center fw-semibold">Monitor Prices &nbsp;📈 <br><span style="font-size: 45px;">Save 🤑 </span><span style="font-size: 71px;">BIG</span> &nbsp; Every Time.</h1>
         </div>
@@ -26,14 +27,17 @@
         </div>
        <div class="search-container">
         <!-- <h3>Let's Do This!!</h3> -->
-        <h3 class="button-heading">Track prices of your favourite products on <span id="platform-name" class="highlighted-text">Amazon</span></h3>
+        <h3 class="button-heading">Track prices of your favourite products <br><span id="platform-name" class="highlighted-text";>Amazon</span></h3>
         <form class="search-form" onsubmit="event.preventDefault(); checkPrice();">
             <input type="url" id="url" name="url" placeholder="Paste a Product URL " class="search-input" required>
             <div class="spacing">
             </div>
-            <button type="submit" class="search-button">JustSaveIt</button>
+            <button type="submit" class="search-button">Save Money</button>
         </form>
-        
+        <img src="display.jpg" class="img-fluid" alt="main-image">  <h2 style="text-align: center; padding-top: 31px;">step 1</h2>
+        <img src="display.jpg" class="img-fluid" alt="main-image">  <h2 style="text-align: center; padding-top: 31px ;">step 2</h2>
+        <img src="display.jpg" class="img-fluid" alt="main-image">  <h2 style="text-align: center; padding-top: 31px;">step 3</h2>
+
         <!-- <p class="supported-platforms">Supports all major e-commerce platforms in India</p> -->
        </div>
     </div>
