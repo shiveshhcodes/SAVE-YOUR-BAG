@@ -1,5 +1,7 @@
 /* styles.css */
 
+@media screen and (min-width: 349px) and (max-width: 375px) {
+
 /* General */
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,3 +27,4 @@ header .buttons button {
     margin-left: 10px;
 }
 
+}
