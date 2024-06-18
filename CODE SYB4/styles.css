@@ -2,13 +2,58 @@
 
 @media screen and (min-width: 349px) and (max-width: 375px) {
 
+/* header first element */
 .first-line{
     padding-left: 6px;
     padding-top: 5px;
 }
 
+.header-container .btn {
+    --bs-btn-color: #fff;
+    /* greencolor */
+    --bs-btn-bg: #027c00; 
+    --bs-btn-border-color: #027c00;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #027c00;
+    --bs-btn-hover-border-color: #027c00;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #027c00;
+    --bs-btn-active-border-color: #027c00;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #027c00;
+    --bs-btn-disabled-border-color: #027c00;
+}
+
+/* full header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 15px;
+}
+/* Heading Header */
+.header-container h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+/* button ki css */
+.header-container .btn {
+    margin-left: 45px; /* Adjust the space between text and button */
+}
+.first-line {
+    margin: 0;
+}
+.header-container .brand-text {
+    margin-right: 10px; /* Adjust space between brand text and button */
+}
+
+/* sign in button */
 .sign-in{
-    padding-left: 252px;
+    padding-left:82px;
     margin-bottom:0px;
 }
 .btn.active{
@@ -16,33 +61,32 @@
     --bs-btn-line-height: 30.5px;
 }
 
+
+/* Main Headline */
 .Main-Line{
-    padding-top: 25px;
+    padding-top: 35px;
     padding-left: 18px;
     font-stretch: semi-expanded;
-    font-size: 13px;
 }
-
 .container .head-front{
-    font-size: 31px;
+    font-size: 36px;
+    /* font-weight: bolder; */
 
 }
+/* description css */
 
 .container .description {
     padding-left: 19px;
     font-size: 15.4554px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: #999;
 }
-.container .main-image{
-    display: block;
-    width: 340px;
-    height: 430px;
-    padding-top: 30px;
-    object-fit: cover;
- 
-}
 
-/* Search Form */
+
+/* Button */
+
+/* main button ki setting */
 .search-form {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -50,12 +94,13 @@
     align-items: center; /* Center items horizontally */
     margin-bottom: 20px;
     zoom: .8;
+    padding-top:12px;
 }
 
 .search-input {
     border: 3px solid #0eab00;
     border-radius: 50px;
-    padding: 18px 50px;
+    padding: 21px 50px;
     font-size: 26px;
     width: 430px;
     outline: none;
@@ -105,4 +150,34 @@
     font-size: 35px;
 }
 
+.blinking-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background-color: black;
+    margin-left: 2px;
+    animation: blink 0.7s step-end infinite;
+    vertical-align: bottom; /* Adjust vertical alignment if necessary */
+}
+
+@keyframes blink {
+    from, to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Optional: Additional styling for the platform element */
+#platform-name {
+    font-family:"inter";
+    font-size: 44px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+    
+.img-fluid{
+    padding-top: 20px;
+}
 }
