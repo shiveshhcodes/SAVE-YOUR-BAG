@@ -2,48 +2,63 @@
 
 @media screen and (min-width: 349px) and (max-width: 375px) {
 
-
-    /* full header */
+    /* full header
     .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 3px 15px;
-    }
+    } */
 
     /* Heading Header */
-    .header-container h2 {
+    /* .header-container h2 {
         margin: 0;
         display: flex;
         align-items: center;
         font-size: 1.5rem;
-    }
+    } */
 
-    .first-line {
+    /* .first-line {
         margin: 0;
-    }
+    } */
 
-    .header-container .brand-text {
+    /* .header-container .brand-text {
         margin-right: 10px;
         /* Adjust space between brand text and button */
-    }
+    /* } */ 
 
     /* header first element */
-    .first-line {
+    /* .first-line {
         padding-left: 6px;
         padding-top: 5px;
-    }
+    } */
 
-    /* button ki css */
-    .header-container .btn {
-        margin-left: 45px;
+    /* inside button ki css */
+    /* .header-container .btn {
+        margin-left: 108px;
+        margin-top: 22px;
+        display: inline-block;
+        font-size: 23px;
+
         /* Adjust the space between text and button */
-    }
+    /* } */
+    
+        /* sign in button */
+        /* .sign-in {
+            padding-left: 0px;
+            margin-bottom: 0px;
 
-    .header-container .btn {
+        } */
+    
+        /* .btn.active {
+            --bs-btn-font-weight: 600;
+            --bs-btn-line-height: 30.5px;
+        } */
+
+    /* .header-container .btn {
         --bs-btn-color: #fff;
         /* greencolor */
-        --bs-btn-bg: #027c00;
+        /* --bs-btn-bg: #027c00;
         --bs-btn-border-color: #027c00;
         --bs-btn-hover-color: #fff;
         --bs-btn-hover-bg: #027c00;
@@ -55,23 +70,31 @@
         --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
         --bs-btn-disabled-color: #fff;
         --bs-btn-disabled-bg: #027c00;
-        --bs-btn-disabled-border-color: #027c00;
+        --bs-btn-disabled-border-color: #027c00; */
+    /* } */ 
+ /* Navabar CSS */
+
+    .navbar .navbar-brand {
+      color: #0a7c00;
+      font-weight: 900;
+      font-size: 27px;
     }
 
+    /* side bar button css */
 
-
-    /* sign in button */
-    .sign-in {
-        padding-left: 82px;
-        margin-bottom: 0px;
+    .nav-item{
+        padding-top: 2px;
+        font-size: 24px;
+        font-weight:600
+        
     }
 
-    .btn.active {
-        --bs-btn-font-weight: 600;
-        --bs-btn-line-height: 30.5px;
+    /* Front-Image Code */
+
+    .img-fluid {
+        padding-top: 110px;
     }
-
-
+    
     /* Main Headline */
     .Main-Line {
         padding-top: 35px;
@@ -204,9 +227,7 @@
         }
     }
 
-    .img-fluid {
-        padding-top: 20px;
-    }
+    
 
     /* how it works */
     .working h2{
