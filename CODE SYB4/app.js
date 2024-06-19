@@ -1,4 +1,4 @@
-const platformNames = ["On Amazon", "On Flipkart", "On Myntra", "On Meesho"];
+const platformNames = ["On Amazon", "On Flipkart", "On Myntra", "On Ajio"];
         let currentIndex = 0;
         let charIndex = 0;
         let deleting = false;
