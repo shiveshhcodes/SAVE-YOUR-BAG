@@ -5,7 +5,7 @@ const platformNames = ["On Amazon", "On Flipkart", "On Myntra", "On Ajio"];
         const typingSpeed = 190; // Speed of typing in milliseconds
         const deletingSpeed = 53; // Speed of deleting in milliseconds
         const pauseBetween = 1200; // Pause time after typing a word in milliseconds
-        const switchInterval = 700; // Interval for switching to the next word in milliseconds
+        const switchInterval = 740; // Interval for switching to the next word in milliseconds
         const platformElement = document.getElementById('platform-name');
         
         // Create and style the cursor element
