@@ -187,8 +187,8 @@
 
 /* MEDIUM DEVICES */
 
-@media screen and (min-width: 375px) and (max-width: 413px) {
-
+@media screen and (min-width: 375px) and (max-width: 413px)
+ {
     .navbar .navbar-brand {
       color: #0a7c00;
       font-weight: 900;
