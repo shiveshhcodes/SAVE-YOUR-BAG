@@ -75,7 +75,7 @@
 
     .blinking-cursor {
         display: inline-block;
-        width: 2px;
+        width: 3px;
         height: 1em;
         background-color: rgb(31, 29, 29);
         margin-left: 2px;
