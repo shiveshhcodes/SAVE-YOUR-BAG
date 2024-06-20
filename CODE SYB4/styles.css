@@ -59,6 +59,7 @@
         margin-top: -21px;
         margin-bottom: 5px;
         padding-top: 23px;
+        text-decoration: none;
     }
    
     
@@ -185,9 +186,9 @@
 }
 
 
-/* MEDIUM DEVICES */
+/* MEDIUM DEVICES 01 */
 
-@media screen and (min-width: 375px) and (max-width: 413px)
+@media screen and (min-width: 375px) and (max-width: 382px)
  {
     .navbar .navbar-brand {
       color: #0a7c00;
@@ -218,7 +219,7 @@
     }
 
     .container .description {
-        padding-left: 16px;
+        padding-left: 11px;
         font-size: 18px; /* Adjusted for medium size */
         padding-top: 15px;
         padding-bottom: 40px;
@@ -227,13 +228,16 @@
 
     .maharaja {
         font-size: 80px; /* Adjusted for medium size */
-        padding-left: -3px;
+        padding-left:0px;
+        margin-left: -6px;
+        /* padding-right: -23px; */
         margin-bottom: 0px;
         margin-top: -21px;
+        /* padding-right: 122px; */
     }
 
     .crown {
-        margin-left: 274px;
+        margin-left: 268px;
         font-size: 39px; /* Adjusted for medium size */
         margin-top: -18px;
         margin-bottom: 5px;
