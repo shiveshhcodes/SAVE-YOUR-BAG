@@ -2,78 +2,6 @@
 
 @media screen and (min-width: 349px) and (max-width: 374px) {
 
-    /* full header
-    .header-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 3px 15px;
-    } */
-
-    /* Heading Header */
-    /* .header-container h2 {
-        margin: 0;
-        display: flex;
-        align-items: center;
-        font-size: 1.5rem;
-    } */
-
-    /* .first-line {
-        margin: 0;
-    } */
-
-    /* .header-container .brand-text {
-        margin-right: 10px;
-        /* Adjust space between brand text and button */
-    /* } */ 
-
-    /* header first element */
-    /* .first-line {
-        padding-left: 6px;
-        padding-top: 5px;
-    } */
-
-    /* inside button ki css */
-    /* .header-container .btn {
-        margin-left: 108px;
-        margin-top: 22px;
-        display: inline-block;
-        font-size: 23px;
-
-        /* Adjust the space between text and button */
-    /* } */
-    
-        /* sign in button */
-        /* .sign-in {
-            padding-left: 0px;
-            margin-bottom: 0px;
-
-        } */
-    
-        /* .btn.active {
-            --bs-btn-font-weight: 600;
-            --bs-btn-line-height: 30.5px;
-        } */
-
-    /* .header-container .btn {
-        --bs-btn-color: #fff;
-        /* greencolor */
-        /* --bs-btn-bg: #027c00;
-        --bs-btn-border-color: #027c00;
-        --bs-btn-hover-color: #fff;
-        --bs-btn-hover-bg: #027c00;
-        --bs-btn-hover-border-color: #027c00;
-        --bs-btn-focus-shadow-rgb: 49, 132, 253;
-        --bs-btn-active-color: #fff;
-        --bs-btn-active-bg: #027c00;
-        --bs-btn-active-border-color: #027c00;
-        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-        --bs-btn-disabled-color: #fff;
-        --bs-btn-disabled-bg: #027c00;
-        --bs-btn-disabled-border-color: #027c00; */
-    /* } */ 
- /* Navabar CSS */
-
     .navbar .navbar-brand {
       color: #0a7c00;
       font-weight: 900;
@@ -98,33 +26,81 @@
     /* Main Headline */
     .Main-Line {
         padding-top: 35px;
-        padding-left: 18px;
+        padding-left: 05px;
         font-stretch: semi-expanded;
     }
 
-    .container .head-front {
-        font-size: 36px;
-        /* font-weight: bolder; */
-
+    .container .head-front{
+        padding-top: 12px;
+        font-size:32px;
     }
-
     /* description css */
 
     .container .description {
         padding-left: 19px;
-        font-size: 17.4554px;
+        font-size: 17px;
         padding-top: 18px;
         padding-bottom: 48px;
         color: #999;
     }
-    
-    .container .head-front{
-        padding-top: 12px;
-        font-size:23px;
+   
+
+    .maharaja{
+        font-size: 78px;
+        padding-left: 2px;
+        margin-bottom: 0px;
+        margin-top: -20px;
+
     }
+    
+    .crown{
+        margin-left: 267px;
+        font-size: 43px;
+        margin-top: -21px;
+        margin-bottom: 5px;
+        padding-top: 23px;
+    }
+   
     
 
     /* Button */
+
+    .button-heading {
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+    }
+
+    .blinking-cursor {
+        display: inline-block;
+        width: 2px;
+        height: 1em;
+        background-color: rgb(31, 29, 29);
+        margin-left: 2px;
+        animation: blink 0.6s step-end infinite;
+        vertical-align: bottom;
+        /* Adjust vertical alignment if necessary */
+    }
+    /* Optional: Additional styling for the platform element */
+    #platform-name {
+        font-family: "inter";
+        font-size: 44px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: green;
+    }
+    
+    @keyframes blink {
+
+        from,
+        to {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+    }
 
     /* main button ki settings */
     .search-form {
@@ -142,7 +118,7 @@
     /* input ki settings css*/
 
     .search-input {
-        border: 3px solid #0eab00;
+        border: 3px solid #1a7e11;
         border-radius: 50px;
         padding: 21px 50px;
         font-size: 26px;
@@ -155,13 +131,13 @@
 
     /* expand on click ki css */
     .search-input:focus {
-        border-color: #0a7c00;
+        border-color: #2cb020;
         border-width: 0.223em;
     }
 
     /* second box ki css */
     .search-button {
-        background-color: #0eab00;
+        background-color: #1a7112;
         border: none;
         border-radius: 50px;
         padding: 18px 20px;
@@ -196,44 +172,6 @@
 
     }
 
-    .button-heading {
-        padding-bottom: 12px;
-        padding-left: 22px;
-        font-size: 31px;
-    }
-
-    .blinking-cursor {
-        display: inline-block;
-        width: 2px;
-        height: 1em;
-        background-color: black;
-        margin-left: 2px;
-        animation: blink 0.7s step-end infinite;
-        vertical-align: bottom;
-        /* Adjust vertical alignment if necessary */
-    }
-    /* Optional: Additional styling for the platform element */
-    #platform-name {
-        font-family: "inter";
-        font-size: 44px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: green;
-    }
-    
-    @keyframes blink {
-
-        from,
-        to {
-            opacity: 1;
-        }
-
-        50% {
-            opacity: 0;
-        }
-    }
-
-    
-
     /* how it works */
     .working h2{
         font-size: 42px;
@@ -247,307 +185,141 @@
 }
 
 
-
 /* MEDIUM DEVICES */
 
 @media screen and (min-width: 375px) and (max-width: 413px) {
 
-    /* Navbar */
     .navbar .navbar-brand {
-        color: #0a7c00;
-        font-weight: 900;
-        font-size: 30px;
+      color: #0a7c00;
+      font-weight: 900;
+      font-size: 30px; /* Adjusted for medium size */
     }
 
     .nav-item {
-        padding-top: 4px;
+        padding-top: 5px;
         font-size: 26px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
-    /* Image */
     .img-fluid {
+        padding-top: 40px; /* Adjusted for medium size */
+    }
+    
+    .Main-Line {
+        padding-top: 30px;
+        padding-left: 15px;
+        font-stretch: semi-expanded;
+    }
+
+    .container .head-front {
+        padding-top: 10px;
+        font-size: 34px; /* Adjusted for medium size */
+    }
+
+    .container .description {
+        padding-left: 20px;
+        font-size: 18px; /* Adjusted for medium size */
+        padding-top: 15px;
+        padding-bottom: 40px;
+        color: #999;
+    }
+
+    .maharaja {
+        font-size: 80px; /* Adjusted for medium size */
+        padding-left: 11px;
+        margin-bottom: 0px;
+        margin-top: -21px;
+    }
+
+    .crown {
+        margin-left: 280px;
+        font-size: 45px; /* Adjusted for medium size */
+        margin-top: -18px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+   
+    .button-heading {
+        padding-bottom: 10px;
+        padding-left: 35px;
+        font-size: 37px; /* Adjusted for medium size */
+        color: rgb(0, 0, 0);
+    }
+
+    #platform-name {
+        font-family: "inter";
+        font-size: 46px; /* Adjusted for medium size */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: green;
+    }
+    
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 18px;
+        zoom: .85; /* Adjusted for medium size */
+        padding-top: 10px;
+        padding-left: 21px;
+        /* position: relative; */
+    }
+
+    .search-input {
+        border: 3px solid #1a7e11;
+        border-radius: 50px;
+        padding: 20px 48px; /* Adjusted for medium size */
+        font-size: 27px; /* Adjusted for medium size */
+        width: 420px; /* Adjusted for medium size */
+        outline: none;
+        transition: all 0.3s ease;
+        margin-bottom: 8px;
+    }
+
+    .search-input:focus {
+        border-color: #2cb020;
+        border-width: 0.223em;
+    }
+
+    .search-button {
+        background-color: #1a7112;
+        border: none;
+        border-radius: 50px;
+        padding: 17px 19px; /* Adjusted for medium size */
+        font-size: 1.5em;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 290px; /* Adjusted for medium size */
+    }
+
+    .search-button:hover {
+        background-color: #0e8103;
+    }
+
+    .search-input::placeholder {
+        color: #999;
+        font-size: 28px; /* Adjusted for medium size */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 12px;
+    }
+
+    .spacing {
+        padding-top: 16px;
+    }
+
+    .working h2 {
+        font-size: 40px; /* Adjusted for medium size */
+        margin-top: 10px;
         padding-top: 60px;
     }
 
-    /* Main Headline */
-    .Main-Line {
-        padding-top: 40px;
-        padding-left: 22px;
-        font-stretch: semi-expanded;
-    }
-
-    .container .head-front {
-        font-size: 40px;
-    }
-
-    /* Description */
-    .container .description {
-        padding-left: 24px;
-        font-size: 19px;
-        padding-top: 22px;
-        padding-bottom: 52px;
-        color: #999;
-    }
-
-    .container .head-front {
-        padding-top: 14px;
-        font-size: 25px;
-    }
-
-    /* Search Form */
-    .search-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 22px;
-        zoom: 0.79;
-        padding-top: 14px;
-        padding-right: 13px;
-    }
-
-    .search-input {
-        border: 3px solid #0eab00;
-        border-radius: 50px;
-        padding: 24px 75px;
-        font-size: 28px;
-        width: 460px;
-        outline: none;
-        transition: all 0.3s ease;
-        margin-bottom: 12px;
-    }
-
-    .search-input:focus {
-        border-color: #0a7c00;
-        border-width: 0.223em;
-    }
-
-    .search-input::placeholder {
-        color: #999;
-        font-size: 31px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        padding-left: 14px;
-    }
-
-    .search-button {
-        background-color: #0eab00;
-        border: none;
-        border-radius: 50px;
-        padding: 20px 22px;
-        font-size: 1.6em;
-        color: #fff;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        width: 100%;
-        max-width: 320px;
-    }
-
-    .search-button:hover {
-        background-color: #0e8103;
-    }
-
-    .spacing {
-        padding-top: 20px;
-    }
-
-    .button-heading {
-        padding-bottom: 14px;
-        padding-left: 24px;
-        font-size: 34px;
-    }
-
-    /* Blinking Cursor */
-    .blinking-cursor {
-        display: inline-block;
-        width: 2px;
-        height: 1em;
-        background-color: black;
-        margin-left: 2px;
-        animation: blink 0.7s step-end infinite;
-        vertical-align: bottom;
-    }
-
-    #platform-name {
-        font-family: "Inter", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 48px;
-        color: green;
-    }
-
-    @keyframes blink {
-        from, to {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-    }
-
-    /* How it Works */
-    .working h2 {
-        font-size: 46px;
-        margin-top: 14px;
-        padding-top: 68px;
-    }
-
     .working .video {
-        padding-top: 20px;
+        padding-top: 16px;
     }
 }
 
 
-
-/* LARGE PHONES */
-
-@media screen and (min-width: 414px) and (max-width: 480px) {
-
-    /* Navbar */
-    .navbar .navbar-toggler {
-        padding-left: 22px;
-    }
-
-    .navbar .navbar-brand {
-        color: #0a7c00;
-        font-weight: 900;
-        font-size: 34px;
-    }
-
-    .nav-item {
-        padding-top: 8px;
-        font-size: 30px;
-        font-weight: 700;
-        
-    }
-
-    /* Image */
-    .img-fluid {
-        padding-top: 80px;
-    }
-
-    /* Main Headline */
-    .Main-Line {
-        padding-top: 55px;
-        padding-left: 28px;
-        font-stretch: semi-expanded;
-    }
-
-    .container .head-front {
-        font-size: 46px;
-    }
-
-    /* Description */
-    .container .description {
-        padding-left: 30px;
-        font-size: 22px;
-        padding-top: 28px;
-        padding-bottom: 60px;
-        color: #999;
-    }
-
-    .container .head-front {
-        padding-top: 18px;
-        font-size: 30px;
-    }
-
-    /* Search Form */
-    .search-form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 26px;
-        zoom: 0.79;
-        padding-top: 18px;
-    }
-
-    .search-input {
-        border: 3px solid #0eab00;
-        border-radius: 50px;
-        padding: 28px 65px;
-        font-size: 32px;
-        width: 520px;
-        outline: none;
-        transition: all 0.3s ease;
-        margin-bottom: 16px;
-    }
-
-    .search-input:focus {
-        border-color: #0a7c00;
-        border-width: 0.223em;
-    }
-
-    .search-input::placeholder {
-        color: #999;
-        font-size: 35px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        padding-left: 18px;
-    }
-
-    .search-button {
-        background-color: #0eab00;
-        border: none;
-        border-radius: 50px;
-        padding: 24px 26px;
-        font-size: 1.8em;
-        color: #fff;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        width: 100%;
-        max-width: 360px;
-    }
-
-    .search-button:hover {
-        background-color: #0e8103;
-    }
-
-    .spacing {
-        padding-top: 24px;
-    }
-
-    .button-heading {
-        padding-bottom: 18px;
-        padding-left: 28px;
-        font-size: 38px;
-    }
-
-    /* Blinking Cursor */
-    .blinking-cursor {
-        display: inline-block;
-        width: 2px;
-        height: 1em;
-        background-color: black;
-        margin-left: 2px;
-        animation: blink 0.7s step-end infinite;
-        vertical-align: bottom;
-    }
-
-    #platform-name {
-        font-family: "Inter", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 54px;
-        color: green;
-    }
-
-    @keyframes blink {
-        from, to {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-    }
-
-    /* How it Works */
-    .working h2 {
-        font-size: 52px;
-        margin-top: 18px;
-        padding-top: 76px;
-    }
-
-    .working .video {
-        padding-top: 24px;
-    }
-}
