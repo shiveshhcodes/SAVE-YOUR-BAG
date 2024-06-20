@@ -73,6 +73,7 @@
         color: rgb(0, 0, 0);
     }
     /* Blinking Cursor Button */
+    
     .blinking-cursor {
         display: inline-block;
         width: 3px;
