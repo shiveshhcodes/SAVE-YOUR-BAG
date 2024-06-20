@@ -232,11 +232,12 @@
     }
 
     .crown {
-        margin-left: 280px;
-        font-size: 45px; /* Adjusted for medium size */
+        margin-left: 285px;
+        font-size: 39px; /* Adjusted for medium size */
         margin-top: -18px;
         margin-bottom: 5px;
         padding-top: 20px;
+        text-decoration: none;
     }
    
     .button-heading {
@@ -261,7 +262,7 @@
         margin-bottom: 18px;
         zoom: .85; /* Adjusted for medium size */
         padding-top: 10px;
-        padding-left: 21px;
+        padding-left: 14px;
         /* position: relative; */
     }
 
@@ -323,3 +324,139 @@
 }
 
 
+/* MEDIUM DEVICES */
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    .navbar .navbar-brand {
+      color: #0a7c00;
+      font-weight: 900;
+      font-size: 32px; /* Adjusted for larger medium size */
+    }
+
+    .nav-item {
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .img-fluid {
+        padding-top: 30px; /* Adjusted for larger medium size */
+    }
+    
+    .Main-Line {
+        padding-top: 25px;
+        padding-left: 20px;
+        font-stretch: semi-expanded;
+    }
+
+    .container .head-front {
+        padding-top: 8px;
+        font-size: 36px; /* Adjusted for larger medium size */
+    }
+
+    .container .description {
+        padding-left: 25px;
+        font-size: 20px; /* Adjusted for larger medium size */
+        padding-top: 10px;
+        padding-bottom: 35px;
+        color: #999;
+    }
+
+    .maharaja {
+        font-size: 85px; /* Adjusted for larger medium size */
+        padding-left: 15px;
+        margin-bottom: 0px;
+        margin-top: -20px;
+    }
+
+    .crown {
+        margin-left: 300px;
+        font-size: 42px; /* Adjusted for larger medium size */
+        margin-top: -15px;
+        margin-bottom: 5px;
+        padding-top: 15px;
+        text-decoration: none;
+    }
+   
+    .button-heading {
+        padding-bottom: 8px;
+        padding-left: 40px;
+        font-size: 40px; /* Adjusted for larger medium size */
+        color: rgb(0, 0, 0);
+    }
+
+    #platform-name {
+        font-family: "inter";
+        font-size: 48px; /* Adjusted for larger medium size */
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: green;
+    }
+    
+    .search-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        zoom: .9; /* Adjusted for larger medium size */
+        padding-top: 12px;
+        padding-left: 18px;
+    }
+
+    .search-input {
+        border: 3px solid #1a7e11;
+        border-radius: 50px;
+        padding: 22px 50px; /* Adjusted for larger medium size */
+        font-size: 28px; /* Adjusted for larger medium size */
+        width: 450px; /* Adjusted for larger medium size */
+        outline: none;
+        transition: all 0.3s ease;
+        margin-bottom: 10px;
+    }
+
+    .search-input:focus {
+        border-color: #2cb020;
+        border-width: 0.223em;
+    }
+
+    .search-button {
+        background-color: #1a7112;
+        border: none;
+        border-radius: 50px;
+        padding: 19px 21px; /* Adjusted for larger medium size */
+        font-size: 1.6em;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 300px; /* Adjusted for larger medium size */
+    }
+
+    .search-button:hover {
+        background-color: #0e8103;
+    }
+
+    .search-input::placeholder {
+        color: #999;
+        font-size: 30px; /* Adjusted for larger medium size */
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 14px;
+    }
+
+    .spacing {
+        padding-top: 18px;
+    }
+
+    .working h2 {
+        font-size: 42px; /* Adjusted for larger medium size */
+        margin-top: 12px;
+        padding-top: 62px;
+    }
+
+    .working .video {
+        padding-top: 18px;
+    }
+}
