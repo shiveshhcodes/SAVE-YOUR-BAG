@@ -207,17 +207,18 @@
     
     .Main-Line {
         padding-top: 30px;
-        padding-left: 15px;
+        padding-left: 11px;
         font-stretch: semi-expanded;
+        /* font-size: 12px; */
     }
 
     .container .head-front {
         padding-top: 10px;
-        font-size: 34px; /* Adjusted for medium size */
+        font-size: 31px; /* Adjusted for medium size */
     }
 
     .container .description {
-        padding-left: 20px;
+        padding-left: 16px;
         font-size: 18px; /* Adjusted for medium size */
         padding-top: 15px;
         padding-bottom: 40px;
@@ -226,13 +227,13 @@
 
     .maharaja {
         font-size: 80px; /* Adjusted for medium size */
-        padding-left: 11px;
+        padding-left: -3px;
         margin-bottom: 0px;
         margin-top: -21px;
     }
 
     .crown {
-        margin-left: 285px;
+        margin-left: 274px;
         font-size: 39px; /* Adjusted for medium size */
         margin-top: -18px;
         margin-bottom: 5px;
@@ -326,7 +327,7 @@
 
 /* MEDIUM DEVICES */
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 414px) and (max-width: 480px) {
 
     .navbar .navbar-brand {
       color: #0a7c00;
@@ -439,11 +440,11 @@
 
     .search-input::placeholder {
         color: #999;
-        font-size: 30px; /* Adjusted for larger medium size */
+        font-size: 26px; /* Adjusted for larger medium size */
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        padding-left: 14px;
+        padding-left: 53px;
     }
 
     .spacing {
@@ -454,9 +455,17 @@
         font-size: 42px; /* Adjusted for larger medium size */
         margin-top: 12px;
         padding-top: 62px;
+        padding-left: 27px;
     }
 
     .working .video {
         padding-top: 18px;
+        width: 450px;
+        padding-left: 54px ;
+    }
+
+    .nav-item .dropdown-item{
+        font-size: 18.453px;
+
     }
 }
