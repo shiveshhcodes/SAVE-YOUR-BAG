@@ -1,0 +1,52 @@
+/* SMALL DEVICES */
+
+@media screen and (min-width: 349px) and (max-width: 374px) {
+
+    .navbar .navbar-brand {
+      color: #0a7c00;
+      font-weight: 900;
+      font-size: 27px;
+    }
+  
+    /* side bar button css */
+  
+    .nav-item{
+        padding-top: 2px;
+        font-size: 24px;
+        font-weight:600
+        
+    }
+  }
+  
+  
+  @media screen and (min-width: 375px) and (max-width: 382px)
+   {
+      .navbar .navbar-brand {
+        color: #0a7c00;
+        font-weight: 900;
+        font-size: 30px; /* Adjusted for medium size */
+      }
+  
+      .nav-item {
+          padding-top: 5px;
+          font-size: 26px;
+          font-weight: 600;
+      }
+   }
+  
+  
+   @media screen and (min-width: 414px) and (max-width: 480px) {
+  
+    .navbar .navbar-brand {
+      color: #0a7c00;
+      font-weight: 900;
+      font-size: 32px; /* Adjusted for larger medium size */
+    }
+  
+    .nav-item {
+        padding-top: 10px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+  
+   }
